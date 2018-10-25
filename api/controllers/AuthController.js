@@ -11,7 +11,7 @@ module.exports = {
         let { client_id } = req.body;
 
         client_id = `${client_id}:${Date.now()}`;
-        console.log('test ci');
+        console.log('test circle-ci');
         // create user
         let userData = {
             username,
